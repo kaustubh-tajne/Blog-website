@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import bgImg from "../images/bg.jpg";
 
-const Header = () => {
+const Header = ()=> {
   return (
     <>
       <div className="header">
