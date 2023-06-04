@@ -1,0 +1,82 @@
+.write {
+    padding-top: 20px;
+}
+
+:root {
+    --border: 2px solid red;
+}
+
+.writeForm {
+    /* border: var(--border); */
+    position: relative;
+}
+
+.writeFormGroup {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    /* border: var(--border); */
+    flex-wrap: wrap;
+}
+
+.writeFormGroup h3 {
+    display: flex;
+    align-items: center;
+}
+
+.writeIcon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.writeInput {
+    font-size: 26px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.writeInput:focus {
+    /* outline: none; */
+}
+
+.writeText {
+    font-size: 20px;
+    min-height: 76vh;
+    /* border: 1px solid grey; */
+    border-radius: 4px;
+}
+
+.writeSubmit {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    color: #fff;
+    background-color: teal;
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.showImg {
+    max-width: 70vw;
+    height: 320px;
+    margin: auto;
+}
+
+.showImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.toastWrite {
+    display: none;
+}

@@ -1,0 +1,70 @@
+.post {
+    max-width: 300px;
+    /* border: var(--border); */
+    margin: 20px 25px;
+}
+
+:root{ 
+    --border: 2px solid red;
+}
+
+.post img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postCats {
+    margin: 8px 0 6px 0;
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.postCat {
+    /* border: var(--border); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #be9656;
+    margin-left: 14px;
+}
+
+.postTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /* border-bottom: 1px solid grey; */
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.postDate {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: grey;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.postDesc {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    cursor: pointer;
+}

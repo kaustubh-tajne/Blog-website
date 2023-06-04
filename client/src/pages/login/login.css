@@ -1,0 +1,71 @@
+.login {
+    height: calc(100vh - 60px);
+    /* border: var(--border); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255, 255, 0.3)), url('../../components/images/login2.jpg') no-repeat center center/cover;
+    /* border: var(--border); */
+}
+
+:root {
+    --border: 2px solid red;
+}
+
+.loginTitle {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: var(--border); */
+}
+
+.loginForm label {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.loginForm input {
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    font-size: 16px;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+    background-color: rgb(238, 198, 198);
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 16%;
+    right: 30px;
+    color: white;
+    background-color: teal;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.register {
+    height: calc(100vh - 60px);
+    /* border: var(--border); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.144),rgba(255,255, 255, 0.3)), url('../../components/images/login3.jpg') no-repeat center center/cover;
+    /* border: var(--border); */
+}
+
+.register > div {
+    background-color: rgba(192, 192, 192, 0.849);
+    padding: 10px 15px 20px 15px;
+    border-radius: 6px;
+}
+
+:root {
+    --border: 2px solid red;
+}
+
+.registerTitle {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: var(--border); */
+}
+
+.registerForm label {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.registerForm input {
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    font-size: 16px;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 16%;
+    right: 30px;
+    color: white;
+    background-color: lightcoral;
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
